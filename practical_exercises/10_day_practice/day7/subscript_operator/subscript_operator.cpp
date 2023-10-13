@@ -38,14 +38,14 @@ public:
 };
 int main() {
   SalaryManaege s(3);
-  s["张三"] = 2188.88;
-  s["里斯"] = 1230.07;
-  s["王无"] = 3200.97;
-  cout << "张三\t" << s["张三"] << endl;
-  cout << "里斯\t" << s["里斯"] << endl;
-  cout << "王无\t" << s["王无"] << endl;
+  s["a"] = 2188.88;
+  s["b"] = 1230.07;
+  s["c"] = 3200.97;
+  cout << "a\t" << s["a"] << endl;
+  cout << "b\t" << s["b"] << endl;
+  cout << "c\t" << s["c"] << endl;
 
-  cout << "-------下为display的输出--------\n\n";
+  cout << "-------Output of display--------\n\n";
   s.display();
   
 }

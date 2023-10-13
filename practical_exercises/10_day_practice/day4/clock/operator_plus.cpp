@@ -11,16 +11,16 @@ public:
     minute = m;
     second = s;
   }
-  Time operator++();
-  Time operator++(int);
+  Time operator++();// `++` 为前置运算时，它的运算符重载函数的一般格式
+  Time operator++(int);//`++` 为后置运算时，它的运算符重载函数的一般格式
   void showTime() {
-    cout << "当前时间为：" << hour << ":" << minute << ":" << second << endl;
+    cout << "Now time:" << hour << ":" << minute << ":" << second << endl;
   }
 
 private:
   int hour, minute, second;
 };
-Time Time::operator++(int n) {
+Time Time::operator++(int nz) {
   Time tmp = *this;
   ++(*this);
   return tmp;

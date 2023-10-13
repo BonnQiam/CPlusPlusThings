@@ -22,6 +22,8 @@ public:
 
 int main() {
   Derived d1;
+  d1.fun();
+
   Base *bp = &d1;
   bp->fun(); // 10
   return 0;

@@ -8,7 +8,7 @@ public:
   }
   // const区分成员重载函数
   void print();
-  void print() const;
+  void print() const;//常成员函数
 
 private:
   int R1, R2;
@@ -21,12 +21,12 @@ const关键字可以被用于参与对重载函数的区分
 */
 
 void R::print() {
-  cout << "普通调用" << endl;
+  cout << "Common use" << endl;
   cout << R1 << ":" << R2 << endl;
 }
 //实例化也需要带上
 void R::print() const {
-  cout << "常对象调用" << endl;
+  cout << "Const object use" << endl;
   cout << R1 << ";" << R2 << endl;
 }
 int main() {

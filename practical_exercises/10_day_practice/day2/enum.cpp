@@ -10,7 +10,7 @@ int main(int argc, char const *argv[]) {
   for (int i = wek; i != f; i++) {
     cout << i << endl;
     cout << wek + s << endl;
-    cout << "-------哈哈-------" << endl;
+    cout << "-------HaHa-------" << endl;
   }
   
   return 0;

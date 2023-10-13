@@ -4,7 +4,7 @@ using namespace std;
 void move(char A, char B);
 void hanoi(int n, char A, char B, char C);
 int main(int argc, char const *argv[]) {
-  cout << "请输入盘子数量：";
+  cout << "Input number of the plates:";
   int disks;
   cin >> disks;
   hanoi(disks, 'A', 'B', 'C');
