@@ -40,8 +40,9 @@
 
 感谢各位对《C++ 那些事》的支持，现将内容也同步至B站，以视频的方式展示，可以打开网站直接阅读~欢迎大家 star、转发、PR。
 
-网站：https://light-city.github.io/
+在线个人博客：[光城的实验室](https://light-city.github.io/)
 
+在线学习网站：[C++那些事](https://light-city.github.io/stories_things/)
 
 - 中文名：**C++ 那些事**
 - 英文名：**Stories About C Plus Plus**
@@ -54,7 +55,6 @@
 推出一系列重磅项目，带大家实战学习C++，配合本开源项目学习，成长飞快!
 
 直通点：[戳这里](./proj/README.md)
-
 
 ### 关于作者
 
