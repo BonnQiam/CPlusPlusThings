@@ -15,8 +15,8 @@ template <> char *Max<char *>(char *a, char *b) {
 int main() {
   float c = 5.1, d = 3.2;
   char s1[] = "xyce", s2[] = "xbv";
-  cout << "2,3的最大值是：" << Max(3, 2) << endl;
-  cout << "c,d的最大值是：" << Max(c, d) << endl;
+  cout << "max of 2,3 is " << Max(3, 2) << endl;
+  cout << "max of c,d is " << Max(c, d) << endl;
   cout << Max("xbv", "xyce") << endl;
   cout << Max(s1, s2) << endl;
   

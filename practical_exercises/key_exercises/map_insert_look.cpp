@@ -1,10 +1,13 @@
 /* 字典插入与查找.cpp */
+#include <Windows.h>
 #include <cstring>
 #include <iostream>
 #include <map>
 using namespace std;
 
 int main(int argc, char const *argv[]) {
+  SetConsoleOutputCP(CP_UTF8);
+  
   map<const char *, const char *> mp;
   map<const char *, const char *>::iterator iter;
   const char key[3][20] = {"img", "system", "ip"};

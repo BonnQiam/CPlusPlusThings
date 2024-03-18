@@ -3,9 +3,9 @@ using namespace std;
 void temperature(int t) {
 
   if (t == 100)
-    throw "沸点！";
+    throw "100 degree";
   else if (t == 0)
-    throw "冰点！";
+    throw "0 degree";
   else {
     cout << "temperatore=" << t << endl;
   }
