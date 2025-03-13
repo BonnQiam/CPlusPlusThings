@@ -43,11 +43,11 @@ Fun getAddr(void *obj, unsigned int offset) {
   cout << "=======================" << endl;
   void *vptr_addr =
       (void *)*(unsigned long *)obj; // 64位操作系统，占8字节，通过*(unsigned
-                                     // long *)obj取出前8字节，即 vptr指针
+                                     // long *)obj取出前8字节，即vptr指针
   printf("vptr_addr:%p\n", vptr_addr);
 
   /**
-   * @brief 通过 vptr 指针访问virtual
+   * @brief 通过vptr指针访问virtual
    * table，因为虚表中每个元素(虚函数指针)在64位编译器下是8个字节，因此通过*(unsigned
    * long *)vptr_addr取出前8字节， 后面加上偏移量就是每个函数的地址！
    */

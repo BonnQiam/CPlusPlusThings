@@ -17,7 +17,7 @@
 
 ## 学习方式
 
-深入学习以下项目，可扫码加入知识星球或添加个人wx: gcxzhang，备注: 加入星球
+深入学习以下项目，可扫码加入知识星球或添加个人wx: **gcxzhang**，备注: 加入星球
 
 
 <img src="../img/cpp.jpg" alt="知识星球" width="400" height="300">
@@ -45,25 +45,8 @@ https://mp.weixin.qq.com/s/ceQoyHVMVmaXL3BNt25O4g
 
 此外，这个项目还可以作为深入学习线程池设计与实现的资源。我们欢迎您探索并使用这个经过精心改进的线程池。
 
-https://github.com/Light-City/light-thread-pool
+[线程池-飞书文档](https://hmpy6adnp5.feishu.cn/docx/BEKBdq0egoxmxNx3X3ZcHzkUnwd)
 
-### 内存池
-
-这个项目的内存池是基于Apache Arrow项目的衍生版本。我们将Arrow项目中复杂的核心结构——内存池——完全剥离出来，形成了这个独立的项目。由于原>始的内存池与Arrow项目本身的工具有深度依赖关系，因此我们在这个项目中对内存池进行了一些深度移除和改造，以保持与原始Arrow内存池的基础功能
-一致。一些改动包括：
-
-- 分离allocator与memory_pool
-- 移除不需要的LoggingMemoryPool、ProxyMemoryPool
-- 移除jemalloc等第三方malloc库，未来可以支持
-
-通过这些改动，我们的目标是：
-
-- 使代码更加精简
-- 使内存池更方便地作为其他项目的依赖库使用
-提供简单的方式来引入本项目的so库和头文件，以使用内存池功能
-此外，这个项目还可以作为深入学习内存池设计与实现的资源。我们欢迎您探索并使用这个经过精心改进的内存池
-
-https://github.com/Light-City/light-memory-pool
 
 ## 手把手100行写一个简易版Mutex
 ### 内容
@@ -71,6 +54,9 @@ https://github.com/Light-City/light-memory-pool
 项目名称：简易互斥锁（SimpleMutex）
 
 项目描述：简易互斥锁（SimpleMutex）是一个基于原子变量和信号量的互斥锁实现，用于保护并管理多线程环境下的共享资源访问。它提供了一种简单而有效的方式来确保在多线程并发访问时，只有一个线程可以同时访问受保护的资源，从而避免数据竞争和不一致性。基于 POSIX 标准的信号量库实现，包含 Catch2 单元测试，附带了基于 Catch2 框架的单元测试，用于验证互斥锁的正确性和稳定性，使用bazel编译，google编码规范。
+
+[https://mp.weixin.qq.com/s/SqtdadmCaJNSK10fScFlUw](https://mp.weixin.qq.com/s/SqtdadmCaJNSK10fScFlUw)
+
 
 ### 涉及内容
 
@@ -91,6 +77,8 @@ https://github.com/Light-City/light-memory-pool
 7.RAII（Resource Acquisition Is Initialization）原则：了解如何使用对象的生命周期来管理资源的获取和释放，确保资源的正确获取和释放，避免资源泄漏。
 
 ## 七种方式玩转condition_variable
+
+[https://mp.weixin.qq.com/s/33ZXOA-tzhbBKMFWS26kCw](https://mp.weixin.qq.com/s/33ZXOA-tzhbBKMFWS26kCw)
 
 ### 内容
 

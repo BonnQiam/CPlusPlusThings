@@ -5,7 +5,6 @@ using namespace std;
 int main(int argc, char const *argv[]) {
   fstream ioFile;
   ioFile.open("./a.dat", ios::out);
-  
   ioFile << "张三"
          << "  " << 76 << " " << 98 << " " << 67 << endl; // L3
   ioFile << "李四"
@@ -17,21 +16,15 @@ int main(int argc, char const *argv[]) {
   ioFile << "刘六"
          << "  " << 90 << " " << 78 << " " << 67 << endl;
   ioFile.close();
-  
   ioFile.open("./a.dat", ios::in | ios::binary);
-  
   char name[10];
-  
   int chinese, math, computer;
-  
   cout << "姓名\t"
        << "英语\t"
        << "数学\t"
        << "计算机\t"
        << "总分" << endl;
-  
   ioFile >> name;
-
   while (!ioFile.eof()) {
     ioFile >> chinese >> math >> computer;
     cout << name << "\t" << chinese << "\t" << math << "\t" << computer << "\t"

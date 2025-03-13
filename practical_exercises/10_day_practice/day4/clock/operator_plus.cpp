@@ -20,7 +20,7 @@ public:
 private:
   int hour, minute, second;
 };
-Time Time::operator++(int nz) {
+Time Time::operator++(int n) {
   Time tmp = *this;
   ++(*this);
   return tmp;

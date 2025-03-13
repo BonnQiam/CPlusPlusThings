@@ -7,6 +7,7 @@
       - [方式2: docker](#方式2-docker)
       - [方式3: g++](#方式3-g)
     - [视频学习本项目](#视频学习本项目)
+    - [飞书知识库](#飞书知识库)
     - [基础进阶](#基础进阶)
     - [实战系列](#实战系列)
       - [10 日狂练](#10-日狂练)
@@ -109,6 +110,23 @@ docker pull xingfranics/cplusplusthings:latest
 
 [第三期：手把手共读HashTable，彻底搞懂C++ STL](https://www.bilibili.com/video/BV1o8411U7vy/?vd_source=bb6532dcd5b1d6b26125da900adb618e)
 
+[第四期：手把手共读STL之enable_shared_from_this](https://www.bilibili.com/video/BV1du4y1w7Mg/?spm_id_from=333.788&vd_source=bb6532dcd5b1d6b26125da900adb618e)
+
+[第五期：手把手共读STL之线程，从C++11 thread到C++20 jthread](https://www.bilibili.com/video/BV1DH4y1g7gS/?vd_source=bb6532dcd5b1d6b26125da900adb618e)
+
+[第六期：手把手共读STL之共读condition_variable、condition_variable_any](https://www.bilibili.com/video/BV13b421b7Am/?spm_id_from=333.999.0.0&vd_source=bb6532dcd5b1d6b26125da900adb618e)
+
+[第七期：手把手共读STL之Mutex](https://www.bilibili.com/video/BV1xm42157pq/?spm_id_from=333.999.0.0&vd_source=bb6532dcd5b1d6b26125da900adb618e)
+
+[第八期：手把手共读STL之RAII Lock](https://www.bilibili.com/video/BV1Ls421g7iq/?spm_id_from=333.788&vd_source=bb6532dcd5b1d6b26125da900adb618e)
+
+### 飞书知识库
+
+[互联网大厂面试实录](https://hmpy6adnp5.feishu.cn/docx/OitBdRB4KozIhTxQt7Ec7iFDnkc)
+
+[拿下offer之必备面经](https://hmpy6adnp5.feishu.cn/docx/B1aCdVTUgoyJGYxtWV7cdvgRnxv)
+
+
 ### 基础进阶
 
 - [`const` 那些事](./basic_content/const)
@@ -141,77 +159,57 @@ docker pull xingfranics/cplusplusthings:latest
 
 #### [10 日狂练](./practical_exercises/10_day_practice)
 
-- [x] [day1](practical_exercises/10_day_practice/day1)
+- [day1-基本语法](practical_exercises/10_day_practice/day1)
 
-基本 c++ 语法
+- [day2-递归、结构体、枚举、静态变量等](practical_exercises/10_day_practice/day2)
 
-- [x] [day2](practical_exercises/10_day_practice/day2)
+- [day3-函数1](practical_exercises/10_day_practice/day3)
 
-递归、结构体、枚举、静态变量等
+- [day4-函数2](practical_exercises/10_day_practice/day4)
 
-- [x] [day3](practical_exercises/10_day_practice/day3)
+- [day5-继承多态](practical_exercises/10_day_practice/day5)
 
-函数
+- [day6-虚函数与抽象类](practical_exercises/10_day_practice/day6)
 
-- [x] [day4](practical_exercises/10_day_practice/day4)
+- [day7-运算符重载](practical_exercises/10_day_practice/day7)
 
-函数深入
+- [day8-模版与STL](practical_exercises/10_day_practice/day8)
 
-- [x] [day5](practical_exercises/10_day_practice/day5)
+- [day9-异常](practical_exercises/10_day_practice/day9)
 
-继承多态
-
-- [x] [day6](practical_exercises/10_day_practice/day6)
-
-虚函数、抽象类
-
-- [x] [day7](practical_exercises/10_day_practice/day7)
-
-运算符重载
-
-- [x] [day8](practical_exercises/10_day_practice/day8)
-
-模板与 STL
-
-- [x] [day9](practical_exercises/10_day_practice/day9)
-
-异常
-
-- [x] [day10](practical_exercises/10_day_practice/day10)
-
-文件与流
+- [day10-文件与流](practical_exercises/10_day_practice/day10)
 
 #### [重点实战练习](./practical_exercises/key_exercises/)
 
-├── [中括号重载.cpp](./practical_exercises/key_exercises/bracket_overloading.cpp)
+- [中括号重载.cpp](./practical_exercises/key_exercises/bracket_overloading.cpp)
 
-├── [时钟++运算符重载.cpp](./practical_exercises/key_exercises/clock.cpp)
+- [时钟++运算符重载.cpp](./practical_exercises/key_exercises/clock.cpp)
 
-├── [运算符重载之强制转换.cpp](./practical_exercises/key_exercises/operator_cast.cpp)
+- [运算符重载之强制转换.cpp](./practical_exercises/key_exercises/operator_cast.cpp)
 
-├── [重载圆括号的时钟.cpp](./practical_exercises/key_exercises/operator_circle.cpp)
+- [重载圆括号的时钟.cpp](./practical_exercises/key_exercises/operator_circle.cpp)
 
-├── [函数模板.cpp](./practical_exercises/key_exercises/func_temp.cpp)
+- [函数模板.cpp](./practical_exercises/key_exercises/func_temp.cpp)
 
-├── [动态数组.cpp](./practical_exercises/key_exercises/array.cpp)
+- [动态数组.cpp](./practical_exercises/key_exercises/array.cpp)
 
-├── [字典插入与查找.cpp](./practical_exercises/key_exercises/map_insert_look.cpp)
+- [字典插入与查找.cpp](./practical_exercises/key_exercises/map_insert_look.cpp)
 
-├── [异常捕获.cpp](./practical_exercises/key_exercises/try.cpp)
+- [异常捕获.cpp](./practical_exercises/key_exercises/try.cpp)
 
-├── [类模板之栈.cpp](./practical_exercises/key_exercises/stack.cpp)
+- [类模板之栈.cpp](./practical_exercises/key_exercises/stack.cpp)
 
-├── [类模板特化之数组.cpp](./practical_exercises/key_exercises/array_template.cpp)
+- [类模板特化之数组.cpp](./practical_exercises/key_exercises/array_template.cpp)
 
-├── [继承与封装.cpp](./practical_exercises/key_exercises/override.cpp)
+- [继承与封装.cpp](./practical_exercises/key_exercises/override.cpp)
 
-├── [读写文件综合题.cpp](./practical_exercises/key_exercises/read_file.cpp)
+- [读写文件综合题.cpp](./practical_exercises/key_exercises/read_file.cpp)
 
-├── [输入输出运算符重载.cpp](./practical_exercises/key_exercises/io_operator_overload.cpp)
+- [输入输出运算符重载.cpp](./practical_exercises/key_exercises/io_operator_overload.cpp)
 
-├── [输入输出重载.cpp](./practical_exercises/key_exercises/io_operator.cpp)
+- [输入输出重载.cpp](./practical_exercises/key_exercises/io_operator.cpp)
 
-├── [输出格式.cpp](./practical_exercises/key_exercises/output.cpp)
+- [输出格式.cpp](./practical_exercises/key_exercises/output.cpp)
 
 
 ### [C++2.0 新特性](./cpp2.0)
@@ -312,7 +310,7 @@ C++2.0 是一个简称，意为「现代 C++」，包括 C++11/14/17/20。
 - [iterator](./src_analysis/stl/iterator.md)
 - [谈谈 STL 设计之 EBO 优化](./src_analysis/stl/谈谈STL设计之EBO优化.md)
 - [rb_tree](./src_analysis/stl/rb_tree.md)
-- [set and multiset](set_multiset.md)
+- [set and multiset](./src_analysis/stl/set_multiset.md)
 - [map and multimap](./src_analysis/stl/map_multimap.md)
 - [hashtable](./src_analysis/stl/hashtable.md)
 - [myhashtable](./src_analysis/stl/myhashtable.md)
